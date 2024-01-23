@@ -1,0 +1,63 @@
+:root {
+  --heading-font-family: "Fraunces", serif;
+  --main-font-family: "Barlow", sans-serif;
+  --dark-cyan: #0e8784;
+  --dark-grey-blue: #333d4b;
+  --pale-orange: #fdd6ba;
+  --light-cream: #fefcf7;
+  --grey: #83888f;
+  --button-hover: #66d2cf;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: flex;
+  object-fit: cover;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  line-height: 26px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font-family);
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 72px;
+}
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+}
+h3 {
+  font-size: 32px;
+  line-height: 36px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
